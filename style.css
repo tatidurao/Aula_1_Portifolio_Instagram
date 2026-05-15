@@ -1,0 +1,35 @@
+/* 
+    ESTILO GERAL DO SITE
+    Aqui ficam as cores principais do tema claro.
+*/
+
+:root {
+    --cor-principal: #ff6b8b;
+    --cor-secundaria: #6c63ff;
+    --cor-fundo: #f5f5f5;
+    --cor-card: #ffffff;
+    --cor-texto: #11142d;
+    --cor-texto-suave: #7a7a8c;
+    --sombra: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* CORPO DO SITE */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    transition: 0.3s;
+}
+
+
+/* CONTAINER PRINCIPAL */
+
